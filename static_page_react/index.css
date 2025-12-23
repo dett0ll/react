@@ -1,0 +1,61 @@
+body {
+  margin: 0; /*streches to all the legth of page horizantly */
+  font-family: Inter, sans-serif;
+  background-color: #282d35;
+  color: white;
+  background-image: url('./react-logo-half.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 65%;
+}
+.nav-logo {
+  width: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background-color: #21222a;
+  padding: 30px 25px;
+}
+
+.nav-bar {
+  display: flex;
+  margin: 2px;
+  list-style: none;
+}
+
+.nav-list-item {
+  color: #61dafb;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.main-body {
+  padding: 60px 30px; /* topbottom and leftright */
+}
+
+h1 {
+  margin: 0; /*reduces gap between header and main */
+}
+
+.fact-list{
+    margin-top:46px;
+}
+
+.fact-list>li{
+   /* margin-block: 20px;*//*if we keep margin bloc top and bottom collapses */
+   padding-block: 10px;
+    line-height: 19px;
+}
+
+.fact-list>li::marker{ /*this marker changes bullet color */
+   color: #61dafb; 
+   font-size: 1.5rem;
+}
+.nav-footer{
+    background-color: #21222a;
+    height: 69px;
+    padding: 20px 500px;
+}
