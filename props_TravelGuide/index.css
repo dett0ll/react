@@ -1,0 +1,40 @@
+* {
+    margin: 0%;
+}
+.Header{
+    background-color: brown;
+    display: flex;
+    justify-content: center; /*bring it to middle of page */
+    align-items: center; /*it will adjust it from top to center in middle */
+    margin-bottom: 50px;
+}
+
+.Header >img {
+    width: 30px;
+}
+
+.main-image{
+    height: 100%;
+}
+
+.main-image-container{
+    width: 125px;
+    overflow: hidden; /* it clips the image */
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+.journal-entry{
+    display: flex;
+}
+
+.info-container {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.info-container > a {
+    margin-left: 10px;
+}
