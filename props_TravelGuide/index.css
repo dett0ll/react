@@ -4,7 +4,7 @@
 .Header{
     background-color: brown;
     display: flex;
-    justify-content: center; /*bring it to middle of page */
+    justify-content: center; /*bring it to middle of page will work only when display flex or grid*/
     align-items: center; /*it will adjust it from top to center in middle */
     margin-bottom: 50px;
 }
