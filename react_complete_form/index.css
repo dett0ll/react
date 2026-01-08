@@ -1,0 +1,38 @@
+* {
+  margin:0%;
+}
+.main-body .user {
+  width: 100px;
+}
+
+.main-body .star {
+  width: 20px;
+}
+
+body {
+  background: rgb(241, 237, 237)
+}
+
+.head{
+  background: white;
+  box-shadow: 0px 6px lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+button {
+  background: black;
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  margin-bottom: 15px;
+}
