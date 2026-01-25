@@ -1,0 +1,14 @@
+.pad-container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 10px;
+}
+
+button {
+  opacity: 0.1;
+}
+
+button.on {
+  opacity: 1;
+}
