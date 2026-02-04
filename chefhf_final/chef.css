@@ -1,0 +1,38 @@
+* {
+  margin: 0%;
+}
+.headbody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  box-shadow: 0px 3px rgb(180, 178, 178);
+}
+.headbody img {
+  width: 50px;
+}
+.foot {
+  display: none;
+}
+
+.ing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.old {
+  background: rgb(153, 121, 121);
+  margin-top: 100px;
+  display: flex;
+  width: fit-content;
+  padding: 10px;
+}
+
+.recipe{
+  margin-top: 50px;
+  border: 1px solid #333;
+  width: 300px;
+  padding: 16px;
+}
